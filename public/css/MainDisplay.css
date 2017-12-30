@@ -1,0 +1,116 @@
+body {
+	margin: 0;
+/*
+	background-image: url('../images/Background4.png');
+	background-repeat: no-repeat;
+	background-size: 1280px 800px;
+*/
+	background-color: black;
+	overflow: hidden;
+	user-select: none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-o-user-select: none;
+}
+
+@font-face {
+	font-family:"Roboto-Regular";
+	src: url("../fonts/Roboto/Roboto-Regular.ttf")
+}
+
+@font-face {
+	font-family:"Roboto-Thin";
+	src: url("../fonts/Roboto/Roboto-Thin.ttf")
+}
+
+.robotoReg {
+	font-family: Roboto-Regular;
+}
+
+.robotoThin {
+	font-family: Roboto-Thin;
+}
+
+.dashboard {
+	position: relative;
+	overflow: hidden;
+	box-sizing: border-box;
+	-webkit-user-select: none;
+}
+
+#splash {
+	transition: all 500ms;
+}
+
+
+.banner{
+	margin-left: 125px;
+	height: 150px;
+	width: 970px;
+	padding: 5px 15px 0 15px;
+}
+
+.page-wrapper {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+/*
+.touchArea {
+	width: 100%;
+	height: 100%;
+}
+*/
+
+.widgetContainer {
+	position: absolute;
+}
+
+.gageDial {
+	position: absolute;
+	/*z-index: 0;*/
+}
+
+.gageNumbers {
+	position: absolute;
+	z-index: 1;
+}
+
+.gageNeedle {
+	position: absolute;
+	z-index: 2;
+}
+
+/*
+.buttons {
+	z-index: 10;
+}
+*/
+
+#diagnosticsButton {
+	position: absolute;
+	left: 1125px;
+	top: 280px;
+	z-index: 10;
+	user-select: none;
+}
+
+#noConnectionAlert {
+	display: none;
+	position: absolute;
+	font: 25px Roboto-Regular;
+	color: red;
+	z-index: 100;
+	top: 250px;
+	left: 340px;
+	width: 600px;
+	height: 300px;
+	line-height: 300px;
+	background: white;
+	border: 1px solid gray;
+	border-radius: 15px;
+	text-align: center;
+	vertical-align: middle;
+}

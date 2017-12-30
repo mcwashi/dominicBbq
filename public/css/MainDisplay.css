@@ -5,7 +5,7 @@ body {
 	background-repeat: no-repeat;
 	background-size: 1280px 800px;
 */
-	background-color: black;
+	background-image: url(../images/bg1.jpg);
 	overflow: hidden;
 	user-select: none;
 	-moz-user-select: none;

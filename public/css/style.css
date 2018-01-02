@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 body{
-	background-image: url(images/bg1.jpg);
+	background-image: url(../images/bg1.jpg);
 	background-repeat: repeat-x;
 	background-color: #FFFFFF;
 }
@@ -35,7 +35,7 @@ div#header{
 	height:50px;
 	font-size: 9px;
 	background-color: #3C527D;
-	background-image: url(images/backGround.jpg);
+	background-image: url(../images/backGround.jpg);
  }
  
  
@@ -58,7 +58,7 @@ div#footer{
 	height: 100px;
 	font-size: 9px;
 	background-color: #3C527D;
-	background-image: url(images/backGroundBottom.jpg);
+	background-image: url(../images/backGroundBottom.jpg);
  }
  
  #Example_A {
